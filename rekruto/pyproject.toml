@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-task-rekruto"
+version = "0.1.0"
+description = ""
+authors = ["Ilmir <you@Ðvalitovilmir29@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_task_rekruto"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.3"
+gunicorn = "^20.1.0"
+psycopg2-binary = "^2.9.5"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
